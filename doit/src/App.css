@@ -1,0 +1,50 @@
+:root {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.App {
+  text-align: center;
+  background-color: #222;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+/*
+.App-header {
+  background-color: #222;
+  height: 100%;
+  padding: 20px;
+  color: white;
+}
+*/
+
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.ListItem {
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.ListItem:hover {
+  background-color: #6CF;
+  border: 2px solid #6CF;
+  color: #222;
+  cursor: pointer;
+}
